@@ -4,6 +4,17 @@
 	box-sizing: border-box;
 }
 
-#links{
+a{
     text-decoration: none;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 5%;
+}
+
+#link_box{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: end; 
+  align-items: center; 
 }
