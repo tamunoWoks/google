@@ -31,7 +31,7 @@ a{
 }
 
 #form_container{   
-    height: 20vh;
+    height: 50vh;
 }
 
 .form_box{
@@ -59,6 +59,8 @@ a{
 
 .search_button {
     padding: 10px 20px;
-    border: 1px solid black;
-    border-radius: 12px;
+    border-radius: 8px;
+    border: none;
 }
+
+/* Start styling advanced search page */
