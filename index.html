@@ -7,13 +7,19 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div id="link_box">
-        <a href="image_search.html" id="links">Image</a>
-        <a href="advanced_search.html" id="links">Advanced</a>
+    <div class="container">
+        <div id="link_box">
+            <a href="image_search.html" id="links">Image</a>
+            <a href="advanced_search.html" id="links">Advanced</a>
+        </div>
+        <div id="form_container">
+            <div class="form_box">
+                <form class="search_container" action="https://www.google.com/search">
+                    <input type="text" name="q" class="Search_bar">
+                    <input type="submit" value="Google Search" class="search_button">
+                </form>
+            </div>
+        </div>
     </div>
-    <form action="https://www.google.com/search">
-        <input type="text" name="q">
-        <input type="submit" value="Google Search">
-    </form>
 </body>
 </html>
