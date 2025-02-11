@@ -47,11 +47,11 @@ a{
     flex-direction: column;
     align-items: center;
     gap: 16px;
-    width: 100%;
 }
 
 .search_bar {
-    width: 40%; 
+    width: 400px; 
+    height: 50px;
     padding: 10px 20px;
     border: 2px solid #ccc;
     border-radius: 25px;
