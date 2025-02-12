@@ -82,6 +82,7 @@ a{
 #form_container2{
     margin: 40px 0 0 40px;
     font-size: medium;
+    width: 720px;
     border-bottom: 0.5px solid #f3eeee;
 }
 
@@ -102,6 +103,7 @@ a{
 
 .options > input{
     width: 50%;
+    flex-grow: 1;
     border: 1px solid #d8d2d2;
     outline: none; 
     box-shadow: none;
@@ -114,6 +116,7 @@ a{
     display: flex;
     flex-direction: row;
     justify-content: end;
+    margin-top: 12px;
 }
 
 .adv_button > input{
