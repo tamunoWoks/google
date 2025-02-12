@@ -7,6 +7,7 @@
 
 html, body {
 	height: 100%;
+    background-color: #fdfbfb;
 }
 
 .container{
@@ -82,4 +83,28 @@ a{
     margin: 40px 0 0 40px;
     font-size: medium;
     border-bottom: 0.5px solid #f3eeee;
+}
+
+.options{
+    display: flex;
+    flex-direction: row;
+}
+
+.form_box2{
+    padding: 24px 0;
+}
+
+.options > p{
+    width: 200px;
+    padding: 8px 0;
+    font-size: small;
+}
+
+.options > input{
+    width: 50%;
+    border: 1px solid #d8d2d2;
+    outline: none; 
+    box-shadow: none;
+    margin: 6px 0;
+    height: 30px;;
 }
