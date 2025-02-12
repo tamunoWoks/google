@@ -106,5 +106,21 @@ a{
     outline: none; 
     box-shadow: none;
     margin: 6px 0;
-    height: 30px;;
+    height: 30px;
+    font-size: 13px;
+}
+
+.adv_button{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+
+.adv_button > input{
+    font-size: 11px;
+    padding: 10px;
+    border: none;
+    color: white;
+    background-color: #3079ed;
+    font-weight: bold;
 }
