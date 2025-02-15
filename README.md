@@ -1,2 +1,2 @@
 # google
-Google search clone practice project
+Google search clone practice project with HTML and CSS.
